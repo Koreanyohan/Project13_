@@ -26,7 +26,7 @@ public class Ex2 {
 		Stream <Integer> stream2 = list.stream();
 		
 		List<Integer> sortedList = stream2.sorted().collect(Collectors.toList()); 
-		// collect(자료형) -> 해당자료형으로 변경 (최종연산자) cf_Collectors.joining() : String으로 변경
+		// collect(자료형) -> 해당자료구조로 변경 (최종연산자) cf_Collectors.joining() : String으로 변경
 	
 		System.out.println(list); // 원본데이터는 스트림 생성해도 변화 없다.
 		System.out.println(sortedList); 
